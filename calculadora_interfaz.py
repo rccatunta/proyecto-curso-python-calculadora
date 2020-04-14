@@ -72,19 +72,19 @@ entry_resultado.place(x=10, y=280)
 
 # BotonSuma
 boton_suma = tk.Button(root, command=suma, text='+', bd=0, bg='#80e27e', fg='black', font=('Verdana', 20), width=3)
-boton_suma.place(x=340, y=100)
+boton_suma.place(x=300, y=130)
 
 # BotonResta
 boton_suma = tk.Button(root, command=resta, text='-', bd=0, bg='#80e27e', fg='black', font=('Verdana', 20), width=3)
-boton_suma.place(x=410, y=100)
+boton_suma.place(x=370, y=130)
 
 # BotonMultiplicacion
 boton_multiplicacion = tk.Button(root, command=multiplicacion, text='*', bd=0, bg='#80e27e', fg='black',
                                  font=('Verdana', 20), width=3)
-boton_multiplicacion.place(x=340, y=170)
+boton_multiplicacion.place(x=300, y=200)
 
 # BotonDivision
 boton_multiplicacion = tk.Button(root, command=division, text='/', bd=0, bg='#80e27e', fg='black', font=('Verdana', 20),
                                  width=3)
-boton_multiplicacion.place(x=410, y=170)
+boton_multiplicacion.place(x=370, y=200)
 root.mainloop()
